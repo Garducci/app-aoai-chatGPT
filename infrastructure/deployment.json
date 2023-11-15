@@ -260,7 +260,7 @@
         }
     },
     "variables": {
-       "WebAppImageName": "NODE|14-lts",
+       "WebAppImageName": "PYTHON|3.11",
         "cosmosdb_account_name": "[format('db-{0}', parameters('WebsiteName'))]",
         "cosmosdb_database_name": "db_conversation_history",
         "cosmosdb_container_name": "conversations",
